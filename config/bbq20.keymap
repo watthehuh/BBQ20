@@ -121,7 +121,6 @@
     &kp LCTRL               &kp LALT                                 &hm OUT_TOG SPACE              &tog LAYER1                       &tog LAYER2
             >;
         };
-
     };
 };
 
