@@ -13,7 +13,6 @@
 #include <dt-bindings/zmk/ext_power.h>
 
    
-#define DEFAULT 0
 #define LAYER1 1
 #define LAYER2 2
 #define LAYER3 3
@@ -54,11 +53,11 @@
 //        -----------------------------------------------------------------------------------------------------------------
 
                  &mkp LCLK                                                                                          &mkp RCLK
-    &to 0                   &kp LGUI                            &mkp LCLK                          &mt ESC K_BACK                    &kp TAB
+    &kp CLCK                &kp LGUI                            &mkp LCLK                          &mt ESC K_BACK                    &kp TAB
     &kp Q        &kp W      &kp E       &kp R     &kp T         &kp Y             &kp U            &kp I            &kp O            &kp P
     &kp A        &kp S      &kp D       &kp F     &kp G         &kp H             &kp J            &kp K            &kp L            &kp BSPC
-    &sk LCTRL    &kp Z      &kp X       &kp C     &kp V         &kp B             &kp N            &kp M            &kp SEMI         &kp ENTER
-    &sk LSHFT               &kp LALT                            &kp SPACE                          &lt LAYER1                        &tog RSHFT
+    &kp LSHFT    &kp Z      &kp X       &kp C     &kp V         &kp B             &kp N            &kp M            &kp SEMI         &kp ENTER
+    &kp LCTRL               &kp LALT                            &kp SPACE                          &tog LAYER1                       &tog LAYER2
             >;
         };
 
