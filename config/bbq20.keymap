@@ -13,6 +13,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 
    
+#define DEFAULT 0
 #define LAYER1 1
 #define LAYER2 2
 #define LAYER3 3
@@ -40,7 +41,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        DEFAULT_layer {
 
             bindings = <
 //         --------------------------------------------------------------------------------------------------------------------------         
