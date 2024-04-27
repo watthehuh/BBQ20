@@ -115,11 +115,11 @@
 
             bindings = <
                  &mkp LCLK                                                                                          &mo 2
-    &bt BT_SEL 0            &bt BT_SEL 1                             &td0                           &bt BT_SEL 2                     &bt BT_SEL 3
-    &none        &kp UP     &none       &sys_reset &ext_power EP_TOG &none         &kp LT           &kp GT          &kp PIPE         &kp KP_EQUAL
-    &kp LEFT     &kp DOWN   &kp RIGHT   &none      &kp BSLH          &kp AMPS      &kp LBRC         &kp RBRC        &kp CARET        &kp BSPC
-    &kp LSHFT    &none      &none       &none      &bl BL_DEC        &bl BL_TOG    &bl BL_INC       &none           &bootloader      &kp ENTER
-    &kp LCTRL               &kp LALT                                 &hm OUT_TOG SPACE              &tog LAYER1                       &tog LAYER2
+    &bt BT_SEL 0            &bt BT_SEL 1                             &td0                           &none                     &none
+    &none        &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3   &bl BL_DEC      &bl BL_INC       &bl BL_TOG      &none      &none         &ext_power EP_TOG
+    &none        &bt BT_SEL 4    &bt BT_CLR        &none          &none           &none            &none           &none      &none        &sys_reset
+    &none        &none           &none             &none          &none           &none            &none           &none      &none      &bootloader
+    &none                        &none                            &hm OUT_TOG SPACE                &tog LAYER1                &tog LAYER2
             >;
         };
     };
