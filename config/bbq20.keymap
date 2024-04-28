@@ -26,7 +26,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <400>;
-            bindings = <&mkp LCLK>, <&bt BT_CLR>;
+            bindings = <&sl LAYER1>, <&to 1>;
         };
     };
     behaviors {
@@ -71,7 +71,7 @@
     AS(Q)        AS(W)      AS(E)       AS(R)     AS(T)         AS(Y)             AS(U)            AS(I)            AS(O)            AS(P)
     AS(A)        AS(S)      AS(D)       AS(F)     AS(G)         AS(H)             AS(J)            AS(K)            AS(L)            &kp BSPC
     &kp LCTRL    AS(Z)      AS(X)       AS(C)     AS(V)         AS(B)             AS(N)            AS(M)            &kp LWIN         &kp ENTER
-    &sk LSHFT               &sk LGUI                            &kp SPACE                          &sl LAYER1                        &sk LSHFT
+    &sk LSHFT               &sk LGUI                            &kp SPACE                          &td0                        &sk LSHFT
             >;
         };
 
@@ -96,7 +96,7 @@
     &kp HOME     &kp UP     &kp END     &sys_reset &ext_power EP_TOG &none         &kp LT           &kp GT          &kp PIPE         &kp KP_EQUAL
     &kp LEFT     &kp DOWN   &kp RIGHT   &none      &kp BSLH          &kp AMPS      &kp LBRC         &kp RBRC        &kp CARET        &kp DEL
     &kp LSHFT    &none      &none       &none      &bl BL_DEC        &bl BL_TOG    &bl BL_INC       &none           &bootloader      &kp ENTER
-    &kp LCTRL               &kp LALT                                 &hm OUT_TOG SPACE              &tog LAYER1                      &tog LAYER2
+    &kp LCTRL               &kp LALT                                 &kp SPACE              &tog LAYER1                      &tog LAYER2
             >;
         };
 
@@ -120,7 +120,7 @@
     &none        &kp UP     &none       &sys_reset &ext_power EP_TOG &none         &kp LT           &kp GT          &kp PIPE         &kp KP_EQUAL
     &kp LEFT     &kp DOWN   &kp RIGHT   &none      &kp BSLH          &kp AMPS      &kp LBRC         &kp RBRC        &kp CARET        &kp BSPC
     &kp LSHFT    &none      &none       &none      &bl BL_DEC        &bl BL_TOG    &bl BL_INC       &none           &bootloader      &kp ENTER
-    &kp LCTRL               &kp LALT                                 &hm OUT_TOG SPACE              &tog LAYER1                       &tog LAYER2
+    &kp LCTRL               &kp LALT                                 &kp SPACE              &tog LAYER1                       &tog LAYER2
             >;
         };
 
