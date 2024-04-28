@@ -26,7 +26,7 @@
             compatible = "zmk,behavior-macro";
             label = "DATE";
             #binding-cells = <0>;
-            bindings = <&kp SLASH &kp NUMBER_4 &kp SLASH &kp NUMBER_2 &kp NUMBER_0 &kp NUMBER_2 &kp NUMBER_4>;
+            bindings = <&kp SLASH &kp NUMBER_5 &kp SLASH &kp NUMBER_2 &kp NUMBER_0 &kp NUMBER_2 &kp NUMBER_4>;
         };
 
         BENLLW: BENLLW {
@@ -187,9 +187,9 @@
             bindings = <
                  &mkp RCLK                                                                                          &mo 2
     &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
-    &none     &kp EXCL     &kp AT        &kp HASH     &kp LBKT   &kp RBKT      &kp LBRC        &kp RBRC        &kp EQUAL        &none
-    &none     &kp DLLR     &kp PRCNT     &kp CARET    &kp BSLH   &kp TILDE     &none           &kp NUBS        &kp PIPE         &kp DEL
-    &none     &kp AMPS     &kp STAR      &kp LPAR     &kp RPAR   &kp GRAVE     &kp LT          &kp GT          &none            &kp ENTER
+    &Brackets     &kp EXCL     &kp AT        &kp HASH     &kp LBKT   &kp RBKT      &kp LBRC        &kp RBRC        &kp EQUAL        &none
+    &SquareBrackets     &kp DLLR     &kp PRCNT     &kp CARET    &kp BSLH   &kp TILDE     &none           &kp NUBS        &kp PIPE         &kp DEL
+    &ArrowBrackets     &kp AMPS     &kp STAR      &kp LPAR     &kp RPAR   &kp GRAVE     &kp LT          &kp GT          &none            &kp ENTER
     &kp LCTRL              &kp RPAR                              &kp SPACE                     &tog LAYER1                      &tog LAYER2
             >;
         };
