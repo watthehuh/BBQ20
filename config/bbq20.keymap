@@ -199,8 +199,8 @@
             bindings = <        
                  &mkp LCLK                                                                                          &kp LSHFT
     &to 0                   &to 3                               &mkp LCLK                          &to 4                             &kp LCTRL
-    &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(PAGE_UP)    &none     &none        &none        &none         &kp TAB
-    &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(PAGE_DOWN   &none     &none        &none        &none         &kp BSPC
+    &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(PG_UP)    &none     &none        &none        &none         &kp TAB
+    &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(PG_DN)   &none     &none        &none        &none         &kp BSPC
     &kp LALT     &kp TAB    &none          &none        &none              &none     &none        &none        &none         &kp ENTER
     &sk LSHFT               &td2                        &kp SPACE                                 &td0                       &td1
             >;
