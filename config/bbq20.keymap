@@ -190,7 +190,7 @@
     &Brackets           &kp EXCL     &kp AT        &kp HASH     &kp LBKT   &kp RBKT      &kp LBRC        &kp RBRC        &kp EQUAL        &none
     &SquareBrackets     &kp DLLR     &kp PRCNT     &kp CARET    &kp BSLH   &kp TILDE     &none           &kp NUBS        &kp PIPE         &kp DEL
     &ArrowBrackets      &kp AMPS     &kp STAR      &kp LPAR     &kp RPAR   &kp GRAVE     &kp LT          &kp GT          &none            &kp ENTER
-    &sk LS(LCTRL)                        &kp RPAR                              &kp SPACE                     &tog LAYER1                      &tog LAYER2
+    &sk LS(LCTRL)                    &kp RPAR                              &kp SPACE                     &tog LAYER1                      &tog LAYER2
             >;
         };
 
