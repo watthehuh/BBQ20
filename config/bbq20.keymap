@@ -190,7 +190,7 @@
     &Brackets           &kp EXCL     &kp AT        &kp HASH     &kp LBKT   &kp RBKT          &kp LBRC        &kp RBRC        &kp EQUAL        &kp TAB
     &SquareBrackets     &kp DLLR     &kp PRCNT     &kp CARET    &kp BSLH   &kp TILDE         &none           &kp NUBS        &kp PIPE         &kp DEL
     &ArrowBrackets      &kp AMPS     &kp STAR      &kp LPAR     &kp RPAR   &kp GRAVE         &kp LT          &kp GT          &none            &kp ENTER
-    &sk LS(LCTRL)                    &kp RPAR                              &ext_power EP_TOG                 &none                            &sk LSHFT
+    &sk LSHFT                        &kp RPAR                              &ext_power EP_TOG                 &none                            &sk LSHFT
             >;
         };
 
@@ -199,10 +199,10 @@
             bindings = <        
                  &mkp LCLK                                                                                          &kp LSHFT
     &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
-    &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(PG_UP)    &none     &none        &none        &none         &kp TAB
-    &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(PG_DN)   &none     &none        &none        &none         &kp BSPC
-    &kp LALT     &kp TAB    &none          &none        &kp F5              &none     &none        &none        &none         &kp ENTER
-    &sk LSHFT               &td2                        &kp SPACE                                 &td0                       &td1
+    &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(PG_UP)    &kp LC(T)        &kp LC(T)        &kp LG(LEFT)   &kp LG(RIGHT)     &kp TAB
+    &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(PG_DN)    &kp LC(N)        &kp LC(LS(T))     &none         &kp LC(LS(T)      &kp BSPC
+    &kp LALT     &kp TAB    &none          &none        &kp F5           &kp LC(LS(N))     &none            &none         &none             &kp ENTER
+    &sk LSHFT               &td2                        &kp SPACE                                          &td0                             &td1
             >;
         };
 
