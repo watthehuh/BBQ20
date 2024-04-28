@@ -202,7 +202,7 @@
     &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
     &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(PG_UP)    &kp LC(T)        &kp LC(W)         &kp LS(LC(LEFT))   &kp LS(LC(RIGHT))   &kp TAB
     &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(PG_DN)    &kp LC(N)        &kp LC(LS(T))     &kp LG(LEFT)       &kp LG(RIGHT)       &kp BSPC
-    &kp LALT     &kp TAB    &none          &none        &kp F5           &kp LC(LS(N))     &none            &none              &kp LS(LCTRL)               &kp ENTER
+    &kp LALT     &kp TAB    &kp LA(F2)     &none        &kp F5           &kp LC(LS(N))     &none            &none              &kp LS(LCTRL)               &kp ENTER
     &sk LSHFT               &td2                        &kp SPACE                                           &td0                                   &td1
             >;
         };
