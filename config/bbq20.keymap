@@ -201,7 +201,7 @@
     &to 0                   &to 3                               &mkp LCLK                          &to 4                             &kp LCTRL
     &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(PG_UP)    &none     &none        &none        &none         &kp TAB
     &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(PG_DN)   &none     &none        &none        &none         &kp BSPC
-    &kp LALT     &kp TAB    &none          &none        &none              &none     &none        &none        &none         &kp ENTER
+    &kp LALT     &kp TAB    &none          &none        &kp F5              &none     &none        &none        &none         &kp ENTER
     &sk LSHFT               &td2                        &kp SPACE                                 &td0                       &td1
             >;
         };
@@ -211,9 +211,9 @@
             bindings = <
                  &mkp LCLK                                                                                          &mo 2
     &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
-    &none     &none     &none      &none    &none   &none     &none        &none        &none         &none
-    &none     &none     &none      &none    &none   &none     &none        &none        &none         &none
-    &none     &none     &none      &none    &none   &none     &none        &none        &none         &none
+    &kp LG(N1)     &kp LG(N2)     &kp F3      &kp F4    &kp F5   &kp F6     &kp F7        &kp F8        &kp F9         &kp F10
+    &kp F11    &kp F12    &kp F13     &kp F14   &kp F15  &kp F16    &kp F17       &kp F18       &kp F19        &kp F20
+    &kp F21     &kp F22     &kp F23      &kp F24    &none   &none     &none        &none        &none         &none
     &sk LSHFT               &td2                                &kp SPACE                          &td0                              &td1
             >;
         };
