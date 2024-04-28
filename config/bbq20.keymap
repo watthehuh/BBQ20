@@ -19,6 +19,7 @@
 #define LAYER3 3
 #define LAYER4 4
 #define LAYER5 5
+#define LAYER6 6
 
 / {
     macros {
@@ -214,7 +215,7 @@
     &kp LG(N1)     &kp LG(N2)     &kp LG(N3)      &kp LG(N4)    &kp LG(N5)   &kp LG(N6)     &kp LG(N7)      &kp LG(N8)     &kp LG(N9)      &kp F13
     &kp F14        &kp F15        &kp F16         &kp F17       &kp F18      &kp F19        &kp F20         &kp F21        &kp F22         &kp F23
     &none          &kp F24        &none           &kp F24       &none        &none          &none           &none          &none           &none
-    &none                      &none                          &sk LWIN                                   &none                           &none
+    &none                      &none                          &sk LWIN                                   &to 5                           &to 6
             >;
         };
 
@@ -229,6 +230,19 @@
     &none                        &none                            &bl BL_TOG                                             &none                    &none
             >;
         };
+
+        LAYER6_layer {
+
+            bindings = <
+                 &mkp LCLK                                                                                          &mo 2
+    &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
+    &none        &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3   &bl BL_DEC        &bl BL_INC           &none           &none      &none         &none
+    &none        &bt BT_SEL 4    &bt BT_CLR        &none          &none             &none                &none           &none      &none         &sys_reset
+    &none        &none           &none             &none          &kp OUT_TOG       &ext_power EP_TOG    &none           &none      &none         &bootloader
+    &none                        &none                            &bl BL_TOG                                             &none                    &none
+            >;
+        };
+
     };
 };
 
