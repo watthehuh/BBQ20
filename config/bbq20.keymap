@@ -82,11 +82,11 @@
 //        -----------------------------------------------------------------------------------------------------------------
 
                  &mkp LCLK                                                                                          &mo 2
-    &mo 3                   &to 0                               &mkp LCLK                          &mo 4                             &mo 1
+    &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &mo 4
     AS(Q)        AS(W)      AS(E)       AS(R)     AS(T)         AS(Y)             AS(U)            AS(I)            AS(O)            AS(P)
     AS(A)        AS(S)      AS(D)       AS(F)     AS(G)         AS(H)             AS(J)            AS(K)            AS(L)            &kp BSPC
     &sk LCTRL    AS(Z)      AS(X)       AS(C)     AS(V)         AS(B)             AS(N)            AS(M)            &sk LWIN         &kp ENTER
-    &td1                    &td2                                &kp SPACE                          &td0                              &td1
+    &sk LSHFT                    &td2                                &kp SPACE                          &td0                              &td1
             >;
         };
 
@@ -108,9 +108,9 @@
             bindings = <
                  &mkp RCLK                                                                                          &mo 2
     &mo 3                   &to 0                               &mkp LCLK                          &mo 4                             &mo 1
-    &kp HOME     &kp UP     &kp END     &sys_reset &ext_power EP_TOG &none         &kp LT           &kp GT          &kp PIPE         &kp KP_EQUAL
-    &kp LEFT     &kp DOWN   &kp RIGHT   &none      &kp BSLH          &kp AMPS      &kp LBRC         &kp RBRC        &kp CARET        &kp DEL
-    &kp LSHFT    &none      &none       &none      &bl BL_DEC        &bl BL_TOG    &bl BL_INC       &none           &bootloader      &kp ENTER
+    &none     &none     &none      &none    &none   &none     &none        &none        &none         &none
+    &none     &none     &none      &none    &none   &none     &none        &none        &none         &none
+    &none     &none     &none      &none    &none   &none     &none        &none        &none         &none
     &kp LCTRL               &kp LALT                                 &kp SPACE              &tog LAYER1                      &tog LAYER2
             >;
         };
