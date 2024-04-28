@@ -21,6 +21,83 @@
 #define LAYER5 5
 
 / {
+    macros {
+        Date: Date {
+            compatible = "zmk,behavior-macro";
+            label = "DATE";
+            #binding-cells = <0>;
+            bindings = <&kp SLASH &kp NUMBER_4 &kp SLASH &kp NUMBER_2 &kp NUMBER_0 &kp NUMBER_2 &kp NUMBER_4>;
+        };
+
+        BENLLW: BENLLW {
+            compatible = "zmk,behavior-macro";
+            label = "BENLLW";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp E &kp N &kp L &kp L &kp W &kp AT &kp G &kp M &kp A &kp I &kp L &kp PERIOD &kp C &kp O &kp M>;
+        };
+
+        Joyce18889: Joyce18889 {
+            compatible = "zmk,behavior-macro";
+            label = "JOYCE18889";
+            #binding-cells = <0>;
+            bindings = <&kp J &kp O &kp Y &kp C &kp E &kp NUMBER_1 &kp NUMBER_8 &kp NUMBER_8 &kp NUMBER_8 &kp NUMBER_9 &kp AT_SIGN &kp G &kp M &kp A &kp I &kp L &kp PERIOD &kp C &kp O &kp M>;
+        };
+
+        macro_doherty: macro_doherty {
+            label = "macro_doherty";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap>,
+                <&kp B &kp E &kp N &kp DOT &kp L &kp E &kp E &kp AT &kp D &kp O &kp H &kp E &kp R &kp T &kp Y &kp DOT &kp C &kp O &kp DOT &kp U &kp K>;
+        };
+
+        teresachng: teresachng {
+            compatible = "zmk,behavior-macro";
+            label = "TERESACHNG";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp E &kp R &kp E &kp S &kp A &kp M &kp G &kp C &kp H &kp N &kp G &kp AT_SIGN &kp G &kp M &kp A &kp I &kp L &kp PERIOD &kp C &kp O &kp M>;
+        };
+
+        ben: ben {
+            compatible = "zmk,behavior-macro";
+            label = "BEN";
+            #binding-cells = <0>;
+            bindings = <&kp MINUS &kp LS(B) &kp E &kp N>;
+        };
+
+        atDoherty: atDoherty {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp AT_SIGN &kp D &kp O &kp H &kp E &kp R &kp T &kp Y &kp PERIOD &kp C &kp O &kp PERIOD &kp U &kp K>;
+        };
+
+        Brackets: Brackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT>;
+        };
+
+        ArrowBrackets: ArrowBrackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LESS_THAN &kp GREATER_THAN &kp LEFT>;
+        };
+
+        SquareBrackets: SquareBrackets {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
+        };
+    };
+};
+
+
+
+
+
+
+/ {
     behaviors {
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
@@ -88,7 +165,7 @@
     AS(Q)        AS(W)      AS(E)       AS(R)     AS(T)         AS(Y)             AS(U)            AS(I)            AS(O)            AS(P)
     AS(A)        AS(S)      AS(D)       AS(F)     AS(G)         AS(H)             AS(J)            AS(K)            AS(L)            &kp BSPC
     &sk LCTRL    AS(Z)      AS(X)       AS(C)     AS(V)         AS(B)             AS(N)            AS(M)            &sk LWIN         &kp ENTER
-    &sk LSHFT                    &td2                                &kp SPACE                          &td0                              &td1
+    &sk LSHFT               &td2                                &kp SPACE                          &td0                              &td1
             >;
         };
 
