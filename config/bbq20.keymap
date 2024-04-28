@@ -200,17 +200,17 @@
             bindings = <        
                  &mkp LCLK                                                                                          &kp LSHFT
     &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
-    &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(PG_UP)    &kp LC(T)        &kp LC(T)        &kp LG(LEFT)   &kp LG(RIGHT)     &kp TAB
-    &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(PG_DN)    &kp LC(N)        &kp LC(LS(T))     &none         &kp LC(LS(T))      &kp BSPC
-    &kp LALT     &kp TAB    &none          &none        &kp F5           &kp LC(LS(N))     &none            &none         &none             &kp ENTER
-    &sk LSHFT               &td2                        &kp SPACE                                          &td0                             &td1
+    &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(PG_UP)    &kp LC(T)        &kp LC(W)         &kp LS(LC(LEFT))   &kp LS(LC(RIGHT))   &kp TAB
+    &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(PG_DN)    &kp LC(N)        &kp LC(LS(T))     &kp LG(LEFT)       &kp LG(RIGHT)       &kp BSPC
+    &kp LALT     &kp TAB    &none          &none        &kp F5           &kp LC(LS(N))     &none            &none              &kp LS(LCTRL)               &kp ENTER
+    &sk LSHFT               &td2                        &kp SPACE                                           &td0                                   &td1
             >;
         };
 
         LAYER4_layer {
 
             bindings = <
-                 &mkp LCLK                                                                                          &mo 2
+                 &mkp LCLK                                                                                          &kp LWIN
     &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LWIN
     &kp LG(N1)     &kp LG(N2)     &kp LG(N3)      &kp LG(N4)    &kp LG(N5)   &kp LG(N6)     &kp LG(N7)      &kp LG(N8)     &kp LG(N9)      &kp F13
     &kp F14        &kp F15        &kp F16         &kp F17       &kp F18      &kp F19        &kp F20         &kp F21        &kp F22         &kp F23
@@ -222,7 +222,7 @@
         LAYER5_layer {
 
             bindings = <
-                 &mkp LCLK                                                                                          &mo 2
+                 &mkp LCLK                                                                                          &mkp RCLK
     &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LWIN
     &kp F1        &kp F2    &kp F3      &kp F4   &kp F5        &kp F6           &kp F7           &kp F8      &kp F9         &kp F10
     &kp F11       &kp F12   &kp F13     &kp F14  &kp F15       &kp F16          &kp F17          &kp F18     &kp F19        &kp F20
