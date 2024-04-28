@@ -223,11 +223,11 @@
 
             bindings = <
                  &mkp LCLK                                                                                          &mo 2
-    &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
-    &none        &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3   &bl BL_DEC        &bl BL_INC           &none           &none      &none         &none
-    &none        &bt BT_SEL 4    &bt BT_CLR        &none          &none             &none                &none           &none      &none         &sys_reset
-    &none        &none           &none             &none          &kp OUT_TOG       &ext_power EP_TOG    &none           &none      &none         &bootloader
-    &none                        &none                            &bl BL_TOG                                             &none                    &none
+    &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LWIN
+    &kp F1        &kp F2    &kp F3      &kp F4   &kp F5        &kp F6           &kp F7           &kp F8      &kp F9         &kp F10
+    &kp F11       &kp F12   &kp F13     &kp F14  &kp F15       &kp F16          &kp F17          &kp F18     &kp F19        &kp F20
+    &kp F21       &kp F22   &kp F23     &kp F24  &BENLLW       &Joyce18889      &teresachng      &ben        &Date          &atDoherty
+    &none                        &none                            &none                                             &none                    &none
             >;
         };
 
