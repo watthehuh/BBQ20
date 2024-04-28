@@ -36,6 +36,12 @@
             bindings = <&sk LSHFT>, <&kp CLCK>;
         };
 
+        td2: tap_dance_2 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <400>;
+            bindings = <&sl LAYER2>, <&to 2>;
+        };
 
     };
     behaviors {
