@@ -186,11 +186,11 @@
 
             bindings = <
                  &mkp RCLK                                                                                          &mo 2
-    &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
-    &Brackets     &kp EXCL     &kp AT        &kp HASH     &kp LBKT   &kp RBKT      &kp LBRC        &kp RBRC        &kp EQUAL        &none
+    &to 0                            &to 3                                 &mkp LCLK                     &mo 4                            &kp LCTRL
+    &Brackets           &kp EXCL     &kp AT        &kp HASH     &kp LBKT   &kp RBKT      &kp LBRC        &kp RBRC        &kp EQUAL        &none
     &SquareBrackets     &kp DLLR     &kp PRCNT     &kp CARET    &kp BSLH   &kp TILDE     &none           &kp NUBS        &kp PIPE         &kp DEL
-    &ArrowBrackets     &kp AMPS     &kp STAR      &kp LPAR     &kp RPAR   &kp GRAVE     &kp LT          &kp GT          &none            &kp ENTER
-    &kp LCTRL              &kp RPAR                              &kp SPACE                     &tog LAYER1                      &tog LAYER2
+    &ArrowBrackets      &kp AMPS     &kp STAR      &kp LPAR     &kp RPAR   &kp GRAVE     &kp LT          &kp GT          &none            &kp ENTER
+    &sk LS(LCTRL)                        &kp RPAR                              &kp SPACE                     &tog LAYER1                      &tog LAYER2
             >;
         };
 
@@ -199,10 +199,10 @@
             bindings = <        
                  &mkp LCLK                                                                                          &mo 2
     &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
-    &none     &none     &none      &none    &none   &none     &none        &none        &none         &none
-    &none     &none     &none      &none    &none   &none     &none        &none        &none         &none
-    &none     &none     &none      &none    &none   &none     &none        &none        &none         &none
-    &kp LCTRL               &kp N0                              &kp SPACE                          &tog LAYER1                       &tog LAYER2
+    &kp HOME     &kp UP     &kp END      &none    &none   &none     &none        &none        &none         &none
+    &kp LEFT     &kp DOWN     &kp RIGHT      &none    &none   &none     &none        &none        &none         &kp BSPC
+    &none     &none     &none      &none    &none   &none     &none        &none        &none         &kp ENTER
+    &sk LSHFT               &kp N0                              &bl BL_TOG                         &sl LAYER1                        &sk LSHFT
             >;
         };
 
