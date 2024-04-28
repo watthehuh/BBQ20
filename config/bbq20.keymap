@@ -79,7 +79,7 @@
     &mo 3                   &to 0                               &mkp LCLK                          &mo 4                             &mo 1
     AS(Q)        AS(W)      AS(E)       AS(R)     AS(T)         AS(Y)             AS(U)            AS(I)            AS(O)            AS(P)
     AS(A)        AS(S)      AS(D)       AS(F)     AS(G)         AS(H)             AS(J)            AS(K)            AS(L)            &kp BSPC
-    &kp LCTRL    AS(Z)      AS(X)       AS(C)     AS(V)         AS(B)             AS(N)            AS(M)            &kp LWIN         &kp ENTER
+    &kp LCTRL    AS(Z)      AS(X)       AS(C)     AS(V)         AS(B)             AS(N)            AS(M)            &sk LWIN         &kp ENTER
     &td1                    &sk LGUI                            &kp SPACE                          &td0                              &td1
             >;
         };
