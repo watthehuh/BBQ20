@@ -161,7 +161,7 @@
 //        -----------------------------------------------------------------------------------------------------------------
 
                  &mkp LCLK                                                                                          &mkp RCLK
-    &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
+    &to 0                   &to 3                               &mkp LCLK                          &to 4                             &kp LCTRL
     AS(Q)        AS(W)      AS(E)       AS(R)     AS(T)         AS(Y)             AS(U)            AS(I)            AS(O)            AS(P)
     AS(A)        AS(S)      AS(D)       AS(F)     AS(G)         AS(H)             AS(J)            AS(K)            AS(L)            &kp BSPC
     &sk LCTRL    AS(Z)      AS(X)       AS(C)     AS(V)         AS(B)             AS(N)            AS(M)            &sk LWIN         &kp ENTER
@@ -174,7 +174,7 @@
 
             bindings = <        
                  &mkp LCLK                                                                                          &mkp RCLK
-    &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
+    &to 0                   &to 3                               &mkp LCLK                          &to 4                             &kp LSHFT
     &kp HASH     &kp N1     &kp N2      &kp N3    &mt LBKT LPAR &mt RBKT RPAR     &kp UNDER        &kp MINUS        &kp PLUS         &kp AT
     &kp STAR     &kp N4     &kp N5      &kp N6    &kp SLASH     &kp COLON         &kp SEMI         &kp APOS         &kp DQT          &kp DEL
     &sk LCTRL    &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &kp DLLR         &kp ENTER
@@ -186,8 +186,8 @@
 
             bindings = <
                  &mkp RCLK                                                                                          &mkp RCLK
-    &to 0                            &to 3                                 &mkp LCLK                     &mo 4                            &kp LCTRL
-    &Brackets           &kp EXCL     &kp AT        &kp HASH     &kp LBKT   &kp RBKT      &kp LBRC        &kp RBRC        &kp EQUAL        &none
+    &to 0                            &to 3                                 &mkp LCLK                     &to 4                            &kp LSHFT
+    &Brackets           &kp EXCL     &kp AT        &kp HASH     &kp LBKT   &kp RBKT      &kp LBRC        &kp RBRC        &kp EQUAL        &kp TAB
     &SquareBrackets     &kp DLLR     &kp PRCNT     &kp CARET    &kp BSLH   &kp TILDE     &none           &kp NUBS        &kp PIPE         &kp DEL
     &ArrowBrackets      &kp AMPS     &kp STAR      &kp LPAR     &kp RPAR   &kp GRAVE     &kp LT          &kp GT          &none            &kp ENTER
     &sk LS(LCTRL)                    &kp RPAR                              &ext_power EP_TOG             &none                            &sk LSHFT
@@ -198,10 +198,10 @@
 
             bindings = <        
                  &mkp LCLK                                                                                          &kp LSHFT
-    &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
-    &kp HOME     &kp UP     &kp END      &kp PG_UP    &kp LC(PAGE_UP)   &none     &none        &none        &none         &none
+    &to 0                   &to 3                               &mkp LCLK                          &to 4                             &kp LCTRL
+    &kp HOME     &kp UP     &kp END      &kp PG_UP    &kp LC(PAGE_UP)   &none     &none        &none        &none         &kp TAB
     &kp LEFT     &kp DOWN   &kp RIGHT    &kp PG_DN    &kp LC(PAGE_DOWN   &none     &none        &none        &none         &kp BSPC
-    &none     &none     &none      &none    &none   &none     &none        &none        &none         &kp ENTER
+    &kp LALT     &kp TAB    &none      &none    &none   &none     &none        &none        &none         &kp ENTER
     &sk LSHFT               &td2                                &kp SPACE                          &td0                              &td1
             >;
         };
