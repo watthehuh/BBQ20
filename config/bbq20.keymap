@@ -68,7 +68,7 @@
 
                  &mkp LCLK                                                                                          &mo 2
     &mo 3                   &to 0                               &mkp LCLK                          &mo 4                             &mo 1
-    &kp Q        &kp W      &kp E       &kp R     &kp T         &kp Y             &kp U            &kp I            &kp O            &kp P
+    AS(Q)        &kp W      &kp E       &kp R     &kp T         &kp Y             &kp U            &kp I            &kp O            &kp P
     &kp A        &kp S      &kp D       &kp F     &kp G         &kp H             &kp J            &kp K            &kp L            &kp BSPC
     &kp LCTRL    &kp Z      &kp X       &kp C     &kp V         &kp B             &kp N            &kp M            &kp SEMI         &kp ENTER
     &sk LSHFT               &sk LGUI                            &kp SPACE                          &sl LAYER1                        &sk LSHFT
