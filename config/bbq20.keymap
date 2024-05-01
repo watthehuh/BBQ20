@@ -195,9 +195,9 @@
             bindings = <
                  &mkp RCLK                                                                                          &none
     &to 0                            &to 3                                 &mkp LCLK                         &mo 4                            &kp ESC
-    &Brackets           &kp EXCL     &kp AT        &kp HASH     &kp LBKT   &kp RBKT          &kp LBRC        &kp RBRC        &kp EQUAL        &kp TAB
-    &SquareBrackets     &kp DLLR     &kp PRCNT     &kp CARET    &kp BSLH   &kp TILDE         &none           &kp NUBS        &kp PIPE         &kp DEL
-    &ArrowBrackets      &kp AMPS     &kp STAR      &kp LPAR     &kp RPAR   &kp GRAVE         &kp LT          &kp GT          &kp ESC          &kp ENTER
+    &Brackets           &none     &none        &none     &kp LBKT     &kp RBKT          &kp LBRC        &kp RBRC        &kp EQUAL        &kp PRCNT
+    &SquareBrackets     &none     &none        &none     &kp BSLH     &kp TILDE         &kp GRAVE       &kp NUBS        &kp PIPE         &kp DEL
+    &ArrowBrackets      &none     &none        &none     &bl BL_DEC   &bl BL_INC        &kp LT          &kp GT          &kp AMPS         &kp ENTER
     &kp LC(BSPC)                      &kp RPAR                              &ext_power EP_TOG                 &kp F13                          &Date
             >;
         };
