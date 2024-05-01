@@ -206,7 +206,7 @@
 
             bindings = <        
                  &mkp LCLK                                                                                          &kp LSHFT
-    &to 0                   &to 5                               &mkp LCLK                          &mo 4                             &kp LCTRL
+    &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
     &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(T)        &kp LC(W)        &kp N7     &kp N8      &kp N9          &kp DEL
     &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(N)        &kp LC(LS(T))    &kp N4     &kp N5      &kp N6          &kp BSPC
     &kt LALT     &kp TAB    &kp LA(F2)     &kp F5       &kp LC(LS(N))    &kp DOT          &kp N1     &kp N2      &kp N3          &kp ENTER
