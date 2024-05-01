@@ -168,7 +168,7 @@
 //        |         aA     |         0           |           SPACE              |         SYM         |        aA          |       
 //        -----------------------------------------------------------------------------------------------------------------
 
-                 &mkp LCLK                                                                                          &mkp RCLK
+                 &mkp LCLK                                                                                          &mo 3
     &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
     AS(Q)        AS(W)      AS(E)       AS(R)     AS(T)         AS(Y)             AS(U)            AS(I)            AS(O)            AS(P)
     AS(A)        AS(S)      AS(D)       AS(F)     AS(G)         AS(H)             AS(J)            AS(K)            AS(L)            &kp BSPC
@@ -181,7 +181,7 @@
         LAYER1_layer {
 
             bindings = <        
-                 &mkp LCLK                                                                                          &mkp RCLK
+                 &mkp LCLK                                                                                          &Date
     &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LSHFT
     &kp HASH     &kp N1     &kp N2      &kp N3    &mt LBKT LPAR &mt RBKT RPAR     &kp UNDER        &kp MINUS        &kp PLUS         &kp AT
     &kp STAR     &kp N4     &kp N5      &kp N6    &kp SLASH     &kp COLON         &kp SEMI         &kp APOS         &kp DQT          &kp DEL
@@ -193,7 +193,7 @@
         LAYER2_layer {
 
             bindings = <
-                 &mkp RCLK                                                                                          &mkp RCLK
+                 &mkp RCLK                                                                                          &Daterm
     &to 0                            &to 3                                 &mkp LCLK                         &mo 4                            &kp LSHFT
     &Brackets           &kp EXCL     &kp AT        &kp HASH     &kp LBKT   &kp RBKT          &kp LBRC        &kp RBRC        &kp EQUAL        &kp TAB
     &SquareBrackets     &kp DLLR     &kp PRCNT     &kp CARET    &kp BSLH   &kp TILDE         &none           &kp NUBS        &kp PIPE         &kp DEL
@@ -207,10 +207,10 @@
             bindings = <        
                  &mkp LCLK                                                                                          &kp LSHFT
     &to 0                   &to 5                               &mkp LCLK                          &mo 4                             &kp LCTRL
-    &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(PG_UP)    &kp LC(T)        &kp LC(W)         &kp LS(LC(LEFT))   &kp LS(LC(RIGHT))   &kp TAB
-    &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(PG_DN)    &kp LC(N)        &kp LC(LS(T))     &kp LG(LEFT)       &kp LG(RIGHT)       &kp BSPC
-    &kp LALT     &kp TAB    &kp LA(F2)     &none        &kp F5           &kp LC(LS(N))    &kp LS(LCTRL)     &none              &kp ESC             &kp ENTER
-    &sk LSHFT               &td2                        &kp SPACE                                           &td0                                   &td1
+    &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(T)        &kp LC(W)        &none     &none   &none          &kp TAB
+    &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(N)        &kp LC(LS(T))    &none     &none   &none          &kp BSPC
+    &kt LALT     &kp TAB    &kp LA(F2)     &kp F5       &kp LC(LS(N))    &kp LS(LCTRL)    &none     &none   &none          &kp ENTER
+    &sk LSHFT               &td2                                &kp SPACE                          &td0                              &td1
             >;
         };
 
