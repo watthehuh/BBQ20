@@ -199,7 +199,7 @@
 
             bindings = <        
                  &mkp LCLK                                                                                          &kp LSHFT
-    &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
+    &to 0                   &to 5                               &mkp LCLK                          &mo 4                             &kp LCTRL
     &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(PG_UP)    &kp LC(T)        &kp LC(W)         &kp LS(LC(LEFT))   &kp LS(LC(RIGHT))   &kp TAB
     &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(PG_DN)    &kp LC(N)        &kp LC(LS(T))     &kp LG(LEFT)       &kp LG(RIGHT)       &kp BSPC
     &kp LALT     &kp TAB    &kp LA(F2)     &none        &kp F5           &kp LC(LS(N))    &kp LS(LCTRL)     &none              &kp ESC             &kp ENTER
@@ -210,12 +210,12 @@
         LAYER4_layer {
 
             bindings = <
-                 &mkp LCLK                                                                                          &kp LG(N1)
-    &to 0                         &to 3                             &mkp LCLK                                         &mo 4                            &kp LWIN
+                 &mkp LCLK                                                                                          &none
+    &to 0                         &to 3                             &mkp LCLK                                         &mo 4                            &to 6
     &kp F13      &kp F14          &kp F15           &kp F16         &kp F17        &kp F18          &kp F19           &kp F20          &kp F21         &kp F22
-    &kp F23      &kp F24          &kp LG(F13)       &kp LG(F14)     &kp LG(F15)    &kp LG(F16)      &kp LG(F17)       &kp LG(F18)      &kp LG(F19)     &kp LG(F20)
-    &none        &kp LG(F21)      &none             &kp LG(F22)         &none        &none          &kp LG(F23)       &kp LG(F24)      &none           &kp LG(N2)
-    &kp LG(N5)                    &to 6                         &kp ESC                                               &to 5                            &kp LG(N6)
+    &kp F23      &kp F24          &kp LG(F13)       &kp LG(F14)     &kp LG(F15)    &kp LG(F16)      &kp LG(F17)       &kp LG(F21)      &kp LG(F22)     &kp LG(F23)
+    &none        &kp LG(F24)      &none             &BENLLW         &none          &none            &Joyce18889       &teresachng      &none           &to 6
+    &kp LG(N2)                    &kp LG(N3)                         &kp LG(N1)                                               &kp LG(N4)                            &kp LG(N5)
             >;
         };
 
@@ -236,10 +236,10 @@
             bindings = <
                  &mkp LCLK                                                                                          &mkp RCLK
     &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp LCTRL
-    &none        &bt BT_SEL 1    &bt BT_SEL 2      &bt BT_SEL 3   &bl BL_DEC        &bl BL_INC           &none           &none      &none         &none
-    &none        &bt BT_SEL 4    &bt BT_CLR        &none          &none             &none                &none           &none      &none         &sys_reset
-    &none        &none           &none             &none          &kp OUT_TOG       &ext_power EP_TOG    &none           &none      &none         &bootloader
-    &none                        &none                            &bl BL_TOG                                             &none                    &none
+    &kp F1       &kp F2          &kp F3       &kp F4      &kp F5            &kp F6               &kp F7          &kp F8            &kp F9               &kp F10
+    &kp F11      &kp F12         &none        &none       &none             &none                &none           &bt BT_SEL 3      &bt BT_SEL 4         &sys_reset
+    &none        &none           &none        &none       &kp OUT_TOG       &ext_power EP_TOG    &none           &bt BT_SEL 1      &bt BT_SEL 1         &bootloader
+    &none                        &none                    &none                                                  &kp OUT_TOG                            &bt BT_CLR
             >;
         };
 
