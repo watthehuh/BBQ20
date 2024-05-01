@@ -30,6 +30,13 @@
             bindings = <&kp SLASH &kp NUMBER_5 &kp SLASH &kp NUMBER_2 &kp NUMBER_0 &kp NUMBER_2 &kp NUMBER_4>;
         };
 
+        Daterm: Daterm {
+            compatible = "zmk,behavior-macro";
+            label = "DATE";
+            #binding-cells = <0>;
+            bindings = <&kp SLASH &kp NUMBER_5 &kp SLASH &kp NUMBER_2 &kp NUMBER_0 &kp NUMBER_2 &kp NUMBER_4 &kp MINUS &kp LS(R) &kp LS(M)>;
+        };
+
         BENLLW: BENLLW {
             compatible = "zmk,behavior-macro";
             label = "BENLLW";
