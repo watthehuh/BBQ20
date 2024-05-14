@@ -175,7 +175,7 @@
 //        -----------------------------------------------------------------------------------------------------------------
 
                  &mkp LEFT                                                                                          &mo RIGHT
-    &to 3                   &Applehome                               &mkp LCLK                          &kp LCTRL                         &kp CLCK
+    &to 3                   &Applehome                          &mkp LCLK                          &kp LCTRL                         &kp LC(SPACE)
     AS(Q)        AS(W)      AS(E)       AS(R)     AS(T)         AS(Y)             AS(U)            AS(I)            AS(O)            AS(P)
     AS(A)        AS(S)      AS(D)       AS(F)     AS(G)         AS(H)             AS(J)            AS(K)            AS(L)            &kp BSPC
     &td0         AS(Z)      AS(X)       AS(C)     AS(V)         AS(B)             AS(N)            AS(M)            &sk LWIN         &kp ENTER
@@ -188,24 +188,24 @@
         LAYER1_layer {
 
             bindings = <        
-                 &mkp LEFT                                                                                          &kp RIGHT
+                 &kp LEFT                                                                                          &kp RIGHT
     &to 0                   &bt BT_SEL 0                        &mkp LCLK                          &bt BT_CLR                        &kp ESC
     &kp HASH     &kp N1     &kp N2      &kp N3    &mt LBKT LPAR &mt RBKT RPAR     &kp UNDER        &kp MINUS        &kp PLUS         &kp AT
     &kp STAR     &kp N4     &kp N5      &kp N6    &kp SLASH     &kp COLON         &kp SEMI         &kp APOS         &kp DQT          &kp DEL
     &kp CARET    &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &kp DLLR         &kp ENTER
-    &kp EQUAL               &kp N0                              &ext_power EP_TOG                  &to 1                             &kp LC(DEL)
+    &kp EQUAL               &kp N0                              &ext_power EP_TOG                  &to 1                             &kp LC(S)
             >;
         };
 
         LAYER2_layer {
 
             bindings = <
-                        &mkp RCLK                                                                                                    &kp LWIN
+                        &kp LEFT                                                                                                    &kp RIGHT
     &to 0                             &bt BT_SEL 0                    &mkp LCLK                                      &bt BT_CLR                       &kp ESC
     &Brackets           &mkp LCLK     &kp UP        &mkp RCLK         &kp LBKT     &kp RBKT          &kp LBRC        &kp RBRC        &kp EQUAL        &kp PRCNT
     &SquareBrackets     &kp LEFT      &mkp MCLK     &kp RIGHT         &kp BSLH     &kp TILDE         &kp GRAVE       &kp NUBS        &kp PIPE         &kp DEL
     &ArrowBrackets      &kp HOME      &kp DOWN      &kp END           &bl BL_DEC   &bl BL_INC        &kp LT          &kp GT          &kp AMPS         &kp ENTER
-    &kp LC(BSPC)                      &to 2                           &bl BL_TOG                                     &Date                            &Daterm
+    &kp LC(S)                         &to 2                           &bl BL_TOG                                     &Date                            &Daterm
             >;
         };
 
@@ -213,7 +213,7 @@
 
             bindings = <        
                  &mkp LCLK                                                                                       &kp LSHFT
-    &to 0                   &Applehome                  &mkp LCLK                                &kp LCTRL                   &kp CLCK
+    &to 0                   &Applehome                  &mkp LCLK                                    &kp LCTRL                   &kp LC(SPACE)
     &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(T)        &kp LC(W)        &kp N7     &kp N8      &kp N9          &kp DEL
     &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(N)        &kp LC(LS(T))    &kp N4     &kp N5      &kp N6          &kp BSPC
     &kt LALT     &kp TAB    &kp LA(F2)     &kp F5       &kp LC(LS(N))    &kp DOT          &kp N1     &kp N2      &kp N3          &kp ENTER
