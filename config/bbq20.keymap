@@ -103,6 +103,12 @@
             #binding-cells = <0>;
             bindings = <&kt CLCK &kp H &kt CLCK>;
         };
+
+        Applesearch: Applesearch {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt CLCK &kp S &kt CLCK>;
+        };
     };
 };
 
