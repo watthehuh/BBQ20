@@ -207,11 +207,11 @@
 
             bindings = <
                         &kp LEFT                                                                                                    &kp RIGHT
-    &to 0                             &bt BT_SEL 0                    &mkp LCLK                                      &sys_reset                       &kp ESC
+    &to 0                   &bt BT_SEL 0                     &mkp LCLK                                      &sys_reset                       &kp ESC
     &kp HOME     &kp UP     &kp END        &kp PG_UP         &kp LBKT     &kp RBKT          &kp LBRC        &kp RBRC        &kp EQUAL        &kp PRCNT
     &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN         &kp BSLH     &kp TILDE         &kp GRAVE       &kp NUBS        &kp PIPE         &kp DEL
     &kt LALT     &kp TAB    &kp LA(F2)     &kp F5            &bl BL_DEC   &bl BL_INC        &kp LT          &kp GT          &kp AMPS         &kp ENTER
-    &Applesearch                      &to 2                           &bl BL_TOG                                     &Date                            &Daterm
+    &Applesearch            &to 2                            &bl BL_TOG                                     &Date                            &Daterm
             >;
         };
 
@@ -220,10 +220,10 @@
             bindings = <        
                  &mkp LCLK                                                                                       &kp LSHFT
     &to 0                   &Applehome                  &mkp LCLK                                    &kp LC(SPACE)                   &kp CLCK
-    &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(T)        &kp LC(W)        &kp N7     &kp N8      &kp N9          &kp DEL
-    &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(N)        &kp LC(LS(T))    &kp N4     &kp N5      &kp N6          &kp BSPC
-    &kt LALT     &kp TAB    &kp LA(F2)     &kp F5       &kp LC(LS(N))    &kp DOT          &kp N1     &kp N2      &kp N3          &kp ENTER
-    &none                   &td2                        &kp SPACE                                    &td0                        &kp N0
+    &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(N)        &kp LC(W)        &kp N7     &kp N8      &kp N9          &kp DEL
+    &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(R)        &kp LC(I)        &kp N4     &kp N5      &kp N6          &kp BSPC
+    &kp LS(LEFT) &kp TAB    &kp LS(RIGHT)  &kp LC(F)    &kp LC(Y)        &kp DOT          &kp N1     &kp N2      &kp N3          &kp ENTER
+    &kp LSHFT               &td2                        &kp SPACE                                    &td0                        &kp N0
             >;
         };
 
