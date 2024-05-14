@@ -207,10 +207,10 @@
 
             bindings = <
                         &kp LEFT                                                                                                    &kp RIGHT
-    &to 0                             &bt BT_SEL 0                    &mkp LCLK                                      &bt BT_CLR                       &kp ESC
-    &Brackets           &mkp LCLK     &kp UP        &mkp RCLK         &kp LBKT     &kp RBKT          &kp LBRC        &kp RBRC        &kp EQUAL        &kp PRCNT
-    &SquareBrackets     &kp LEFT      &mkp MCLK     &kp RIGHT         &kp BSLH     &kp TILDE         &kp GRAVE       &kp NUBS        &kp PIPE         &kp DEL
-    &ArrowBrackets      &kp HOME      &kp DOWN      &kp END           &bl BL_DEC   &bl BL_INC        &kp LT          &kp GT          &kp AMPS         &kp ENTER
+    &to 0                             &bt BT_SEL 0                    &mkp LCLK                                      &sys_reset                       &kp ESC
+    &kp HOME     &kp UP     &kp END        &kp PG_UP         &kp LBKT     &kp RBKT          &kp LBRC        &kp RBRC        &kp EQUAL        &kp PRCNT
+    &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN         &kp BSLH     &kp TILDE         &kp GRAVE       &kp NUBS        &kp PIPE         &kp DEL
+    &kt LALT     &kp TAB    &kp LA(F2)     &kp F5            &bl BL_DEC   &bl BL_INC        &kp LT          &kp GT          &kp AMPS         &kp ENTER
     &Applesearch                      &to 2                           &bl BL_TOG                                     &Date                            &Daterm
             >;
         };
