@@ -168,11 +168,11 @@
 //        |         aA     |         0           |           SPACE              |         SYM         |        aA          |       
 //        -----------------------------------------------------------------------------------------------------------------
 
-                 &mkp LCLK                                                                                          &mo 3
-    &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp RIGHT
+                 &mkp LEFT                                                                                          &mo RIGHT
+    &to 3                   &kp LC(H)                               &mkp LCLK                          &kp LCTRL                         &kp CLCK
     AS(Q)        AS(W)      AS(E)       AS(R)     AS(T)         AS(Y)             AS(U)            AS(I)            AS(O)            AS(P)
     AS(A)        AS(S)      AS(D)       AS(F)     AS(G)         AS(H)             AS(J)            AS(K)            AS(L)            &kp BSPC
-    &sk LCTRL    AS(Z)      AS(X)       AS(C)     AS(V)         AS(B)             AS(N)            AS(M)            &sk LWIN         &kp ENTER
+    &td0         AS(Z)      AS(X)       AS(C)     AS(V)         AS(B)             AS(N)            AS(M)            &sk LWIN         &kp ENTER
     &sk LSHFT               &td2                                &kp SPACE                          &td0                              &td1
             >;
         };
@@ -182,8 +182,8 @@
         LAYER1_layer {
 
             bindings = <        
-                 &mkp RCLK                                                                                          &kp LWIN
-    &to 0                   &to 3                               &mkp LCLK                          &mo 4                             &kp ESC
+                 &mkp LEFT                                                                                          &kp RIGHT
+    &to 0                   &kp LC(H)                               &mkp LCLK                          &kp LCTRL                             &kp ESC
     &kp HASH     &kp N1     &kp N2      &kp N3    &mt LBKT LPAR &mt RBKT RPAR     &kp UNDER        &kp MINUS        &kp PLUS         &kp AT
     &kp STAR     &kp N4     &kp N5      &kp N6    &kp SLASH     &kp COLON         &kp SEMI         &kp APOS         &kp DQT          &kp DEL
     &kp CARET    &kp N7     &kp N8      &kp N9    &kp QMARK     &kp EXCL          &kp COMMA        &kp DOT          &kp DLLR         &kp ENTER
@@ -195,7 +195,7 @@
 
             bindings = <
                         &mkp RCLK                                                                                                    &kp LWIN
-    &to 0                             &to 3                           &mkp LCLK                                      &mo 4                            &kp ESC
+    &to 0                             &kp LC(H)                       &mkp LCLK                                      &kp LCTRL                        &kp ESC
     &Brackets           &mkp LCLK     &kp UP        &mkp RCLK         &kp LBKT     &kp RBKT          &kp LBRC        &kp RBRC        &kp EQUAL        &kp PRCNT
     &SquareBrackets     &kp LEFT      &mkp MCLK     &kp RIGHT         &kp BSLH     &kp TILDE         &kp GRAVE       &kp NUBS        &kp PIPE         &kp DEL
     &ArrowBrackets      &kp HOME      &kp DOWN      &kp END           &bl BL_DEC   &bl BL_INC        &kp LT          &kp GT          &kp AMPS         &kp ENTER
@@ -207,47 +207,11 @@
 
             bindings = <        
                  &mkp LCLK                                                                                       &kp LSHFT
-    &to 0                   &to 3                       &mkp LCLK                                    &mo 4                       &kp LCTRL
+    &to 0                   &kp LC(H)                       &mkp LCLK                                &kp LCTRL                   &kp CLCK
     &kp HOME     &kp UP     &kp END        &kp PG_UP    &kp LC(T)        &kp LC(W)        &kp N7     &kp N8      &kp N9          &kp DEL
     &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN    &kp LC(N)        &kp LC(LS(T))    &kp N4     &kp N5      &kp N6          &kp BSPC
     &kt LALT     &kp TAB    &kp LA(F2)     &kp F5       &kp LC(LS(N))    &kp DOT          &kp N1     &kp N2      &kp N3          &kp ENTER
     &none                   &td2                        &kp SPACE                                    &td0                        &kp N0
-            >;
-        };
-
-        LAYER4_layer {
-
-            bindings = <
-                 &mkp LCLK                                                                                                             &none
-    &to 0                         &to 3                             &mkp LCLK                                         &mo 4                            &to 5
-    &kp F13      &kp F14          &kp F15           &kp F16         &kp F17        &kp F18          &kp F19           &kp F20          &kp F21         &kp F22
-    &kp F23      &kp F24          &kp LG(F13)       &kp LG(F14)     &kp LG(F15)    &kp LG(F16)      &kp LG(F17)       &kp LG(F21)      &kp LG(F22)     &kp LG(F23)
-    &none        &kp LG(F24)      &none             &BENLLW         &none          &none            &Joyce18889       &teresachng      &none           &to 6
-    &kp LG(N2)                    &kp LG(N3)                        &kp LG(N1)                                        &kp LG(N4)                       &kp LG(N5)
-            >;
-        };
-
-        LAYER5_layer {
-
-            bindings = <
-                  &none                                                                                       &none
-    &none                   &none                              &ext_power EP_TOG                 &mo 4                       &none
-    &none         &none     &none       &none    &none         &none            &none            &none        &none          &none
-    &none         &none     &none       &none    &none         &none            &none            &none        &none          &none
-    &none         &none     &none       &none    &none         &none            &none            &none        &none          &none
-    &none                   &none                              &none                             &none                       &none
-            >;
-        };
-
-        LAYER6_layer {
-
-            bindings = <
-                 &mkp LCLK                                                                                                         &mkp RCLK
-    &to 0                   &to 3                         &mkp LCLK                                              &mo 4                                  &kp LCTRL
-    &kp F1       &kp F2          &kp F3       &kp F4      &kp F5            &kp F6               &kp F7          &kp F8            &kp F9               &kp F10
-    &kp F11      &kp F12         &none        &none       &none             &none                &none           &bt BT_SEL 3      &bt BT_SEL 4         &sys_reset
-    &none        &none           &none        &none       &none             &none                &none           &bt BT_SEL 1      &bt BT_SEL 1         &bootloader
-    &none                        &none                    &none                                                  &kp OUT_TOG                            &bt BT_CLR
             >;
         };
 
