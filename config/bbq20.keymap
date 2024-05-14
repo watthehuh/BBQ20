@@ -210,7 +210,7 @@
     &to 0                   &bt BT_SEL 1                     &mkp LCLK                                      &sys_reset                       &kp ESC
     &kp HOME     &kp UP     &kp END        &kp PG_UP         &kp LBKT     &kp RBKT          &kp LBRC        &kp RBRC        &kp EQUAL        &kp PRCNT
     &kp LEFT     &kp DOWN   &kp RIGHT      &kp PG_DN         &kp BSLH     &kp TILDE         &kp GRAVE       &kp NUBS        &kp PIPE         &kp DEL
-    &kp LS(LEFT) &kp TAB    &kp LS(RIGHT)  &kp LC(F)         &&kp OUT_TOG      &kp CARET         &kp LT          &kp GT          &kp AMPS         &kp ENTER
+    &kp LS(LEFT) &kp TAB    &kp LS(RIGHT)  &kp LC(F)         &kp OUT_TOG      &kp CARET         &kp LT          &kp GT          &kp AMPS         &kp ENTER
     &bl BL_DEC              &to 2                            &bl BL_TOG                                     &Date                            &Daterm
             >;
         };
