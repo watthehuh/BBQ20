@@ -97,6 +97,12 @@
             #binding-cells = <0>;
             bindings = <&kp LEFT_BRACKET &kp RIGHT_BRACKET &kp LEFT>;
         };
+
+        Applehome: Applehome {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt CLCK &kp H &kt CLCK>;
+        };
     };
 };
 
